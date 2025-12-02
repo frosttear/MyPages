@@ -185,46 +185,6 @@
             color: #666;
         }
 
-        .nav-buttons {
-            position: fixed;
-            bottom: 50px;
-            left: 50%;
-            transform: translateX(-50%);
-            display: flex;
-            gap: 20px;
-            z-index: 100;
-        }
-
-        .nav-btn {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            border: 2px solid #00d4ff;
-            background: rgba(0, 212, 255, 0.1);
-            color: #00d4ff;
-            font-size: 1.5em;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .nav-btn:hover {
-            background: rgba(0, 212, 255, 0.3);
-            transform: scale(1.1);
-        }
-
-        .nav-btn:active {
-            transform: scale(0.95);
-        }
-
-        @media (min-width: 1024px) {
-            .nav-buttons {
-                display: none;
-            }
-        }
-
         .checkmark { color: #4ade80; }
         .crossmark { color: #f87171; }
         .warning { color: #fbbf24; }
@@ -264,6 +224,148 @@
             border-radius: 10px;
             border: 1px solid #00d4ff;
             margin: 15px 0;
+        }
+
+        /* Mobile responsive styles */
+        @media (max-width: 768px) {
+            .slide {
+                padding: 20px 15px;
+                height: auto;
+                min-height: 100vh;
+            }
+
+            h1 {
+                font-size: 1.5em;
+                margin-bottom: 15px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+                margin: 15px 0 10px 0;
+            }
+
+            h3 {
+                font-size: 1.1em;
+                margin: 10px 0 8px 0;
+            }
+
+            p, li {
+                font-size: 1em;
+                line-height: 1.5;
+                margin: 8px 0;
+            }
+
+            ul {
+                margin-left: 20px;
+            }
+
+            li {
+                margin: 8px 0;
+            }
+
+            pre {
+                padding: 12px;
+                margin: 10px 0;
+                font-size: 0.85em;
+            }
+
+            pre code {
+                font-size: 0.8em;
+                line-height: 1.4;
+            }
+
+            code {
+                padding: 2px 5px;
+                font-size: 0.9em;
+            }
+
+            table {
+                font-size: 0.85em;
+                display: block;
+                overflow-x: auto;
+            }
+
+            th, td {
+                padding: 8px 10px;
+            }
+
+            blockquote {
+                padding: 10px 15px;
+                font-size: 1em;
+                margin: 15px 0;
+            }
+
+            .two-column {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .ascii-diagram {
+                font-size: 0.65em;
+                padding: 12px;
+                overflow-x: auto;
+            }
+
+            .flow-diagram {
+                padding: 15px;
+                overflow-x: auto;
+            }
+
+            .key-point {
+                padding: 12px 15px;
+            }
+
+            .subtitle {
+                font-size: 1.1em;
+            }
+
+            .slide-number {
+                bottom: 10px;
+                right: 15px;
+                font-size: 0.85em;
+            }
+
+            .nav-hint {
+                display: none;
+            }
+
+            .progress-bar {
+                height: 3px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .slide {
+                padding: 15px 10px;
+            }
+
+            h1 {
+                font-size: 1.3em;
+            }
+
+            h2 {
+                font-size: 1.1em;
+            }
+
+            p, li {
+                font-size: 0.95em;
+            }
+
+            pre code {
+                font-size: 0.75em;
+            }
+
+            .ascii-diagram {
+                font-size: 0.55em;
+            }
+
+            table {
+                font-size: 0.75em;
+            }
+
+            th, td {
+                padding: 6px 8px;
+            }
         }
     </style>
 </head>
