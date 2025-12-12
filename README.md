@@ -11,6 +11,7 @@ A collection of static HTML pages hosted on GitHub Pages.
 | **[Async/Await Thread Switching Pitfall](Async%3AAwait%20Thread%20Switching%20Pitfall.html)** | Interactive presentation about common async/await pitfalls |
 | **[棒球 (Baseball)](Baseball.html)** | A baseball game built with Scratch & TurboWarp |
 | **[飞翔的小鸟 (Flying Bird)](FlyingBird_mobile.html)** | Mobile-friendly Flappy Bird style game |
+| **[狐妖大作战 (Fox Demon Battle)](%E7%8B%90%E5%A6%96%E5%A4%A7%E4%BD%9C%E6%88%98%20-%20Preview.html)** | Plants vs Zombies style tower defense game |
 
 ## Features
 
